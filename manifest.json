@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "AtCoder Sample Extension",
+  "version": "0.1",
+  "description": "AtCoderの問題ページに、サンプルテキストのコピーボタンとダウンロードボタンを追加します。",
+  "author": "s.nakazawa",
+  "homepage_url": "https://github.com/snakazawa/test/AtCoderSampleExtension",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.atcoder.jp/tasks/*",
+        "https://*.atcoder.jp/tasks/*"
+      ],
+      "js": [
+        "js/lib/clipboard/dist/clipboard.min.js",
+        "js/main.js"
+      ]
+    }
+  ],
+  "permissions": []
+}

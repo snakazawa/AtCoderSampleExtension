@@ -1,0 +1,17 @@
+{
+  "name": "AtCoderSampleExtension",
+  "version": "1.0.0",
+  "authors": [
+    "snakazawa <nakazawa.tms0314@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "js/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "clipboard": "~1.5.5"
+  }
+}
