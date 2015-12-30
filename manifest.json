@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "AtCoder Sample Extension",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "AtCoderの問題ページに、サンプルテキストのコピーボタンとダウンロードボタンを追加します。",
   "author": "s.nakazawa",
   "homepage_url": "https://github.com/snakazawa/test/AtCoderSampleExtension",
