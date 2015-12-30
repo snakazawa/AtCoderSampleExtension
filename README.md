@@ -1,1 +1,3 @@
 # AtCoderSampleExtension
+
+AtCoderの問題ページに、サンプルテキストのコピーボタンとダウンロードボタンを追加するChrome Extension。
