@@ -7,7 +7,7 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "js/lib",
+    "vendor",
     "test",
     "tests"
   ],

@@ -5,6 +5,9 @@
   "description": "AtCoderの問題ページに、サンプルテキストのコピーボタンとダウンロードボタンを追加します。",
   "author": "s.nakazawa",
   "homepage_url": "https://github.com/snakazawa/test/AtCoderSampleExtension",
+  "browser_action": {
+    "default_popup": "views/popup.html"
+  },
   "content_scripts": [
     {
       "matches": [
@@ -12,10 +15,13 @@
         "https://*.atcoder.jp/tasks/*"
       ],
       "js": [
-        "js/lib/clipboard/dist/clipboard.min.js",
-        "js/main.js"
+        "vendor/clipboard/dist/clipboard.min.js",
+        "js/lib/optionStorage.js",
+        "js/content_scripts.js"
       ]
     }
   ],
-  "permissions": []
+  "permissions": [
+    "storage"
+  ]
 }
